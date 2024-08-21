@@ -16,7 +16,7 @@ archives:
       {{- else }}{{ .Arch }}{{ end }}
 brews:
   - name: kubectl-pvcmount
-    tap:
+    repository:
       owner: stenstromen
       name: homebrew-tap
     commit_author:
