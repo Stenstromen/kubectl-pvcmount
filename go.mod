@@ -1,6 +1,6 @@
-module github.com/stenstromen/pvcmount
+module github.com/stenstromen/kubectl-pvcmount
 
-go 1.23.0
+go 1.23
 
 require (
 	github.com/spf13/cobra v1.8.1

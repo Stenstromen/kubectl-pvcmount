@@ -8,7 +8,7 @@ import (
 
 var rootCmd = &cobra.Command{
 	Use:   "kubectl-pvcmount",
-	Short: "Go binary for mounting persistent volumes",
+	Short: "Go binary for temporary mounting of PVCs",
 }
 
 func Execute() {

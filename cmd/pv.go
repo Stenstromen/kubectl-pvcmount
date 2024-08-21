@@ -1,15 +1,15 @@
 package cmd
 
 import (
-	"github.com/stenstromen/pvcmount/resource"
+	"github.com/stenstromen/kubectl-pvcmount/resource"
 
 	"github.com/spf13/cobra"
 )
 
 var pvcCmd = &cobra.Command{
 	Use:   "pvc",
-	Short: "Mount Persistent Volume",
-	Long:  `Mount Persistent Volume`,
+	Short: "Mount Persistent Volume to a temporary container",
+	Long:  `Mount Persistent Volume to a temporary container`,
 	RunE:  resource.ResourceUpdate,
 }
 
