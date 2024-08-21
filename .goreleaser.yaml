@@ -15,7 +15,10 @@ archives:
       {{- if eq .Arch "amd64" }}x86_64
       {{- else }}{{ .Arch }}{{ end }}
 brews:
-  - name: kubectl-pvcmount    
+  - name: kubectl-pvcmount
+    tap:
+      owner: stenstromen
+      name: homebrew-tap
     commit_author:
       name: stenstromen
     homepage: https://github.com/Stenstromen/kubectl-pvcmount
