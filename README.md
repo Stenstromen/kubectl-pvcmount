@@ -1,5 +1,7 @@
 # kubectl-pvcmount
 
+![logo](kubectl-pvcmount.webp)
+
 Go binary for temporary mounting of PVCs to a pod. This is useful for debugging purposes or for copying data from a PVC to another location.
 
 ## Installation via Homebrew (MacOS/Linux - x86_64/arm64)
